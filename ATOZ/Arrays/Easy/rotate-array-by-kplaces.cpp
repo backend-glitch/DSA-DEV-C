@@ -6,10 +6,18 @@ using namespace std;
 
 /*
 flow : 
+-> left rotation :
 1. do k = k%n to reduce extra rotations
 2. reverse arr[0] to arr[0+d]
 3.then reverse arr[d+1] to arr[n-1]
 4.then reverse the final array
+5. thats the answer
+
+-> righjt rotation
+1. k=k%n;
+2. reverse whole arr
+3. reverse arr[0 to k-1];
+4. reverse the arr[k to (n-1)]
 5. thats the answer
 */
 
