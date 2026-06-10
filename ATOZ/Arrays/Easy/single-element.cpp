@@ -35,3 +35,16 @@ int main(){
 
     cout << single(nums);
 }
+
+/*
+optimal:
+
+int single(vector<int> &nums){
+ans = 0;
+for(int i=0i<n;i++){
+  ans ^= nums[i];
+}
+
+return ans;
+}
+*/
