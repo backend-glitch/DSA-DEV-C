@@ -35,7 +35,7 @@ vector<int> twoSum (vector<int> &nums, int target){
         mp[nums[i]] = i;
     }
 
-    return -1;
+    return {-1,-1};
 
 }
 
